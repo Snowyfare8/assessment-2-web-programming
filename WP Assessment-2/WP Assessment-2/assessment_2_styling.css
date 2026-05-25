@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+
+    padding: 0;
+    margin: 0
+}
+
+header {
+    display: flex;
+    text-align: left;
+    padding: 25px;
+    padding-left: 5px;
+    padding-right: 50px;
+
+}
+
+a {
+    color:white;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-decoration: none;
+    display:inline-block;
+}
+
+.reg_button:hover {
+    color: darkblue;
+    transition: color 0.2s
+}
+
+.contact_button {
+    background-color: blue;
+    padding: 12px;
+    border-radius: 2px;
+    margin-left: 400px
+}
+
+.contact_button:hover {
+    background-color: lightblue;
+    color: black;
+    border-radius: 2px;
+    transition: background-color 0.2s
+}
+
+.contact_section {
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+.socmed_button {
+    background-color: blue;
+    padding: 12px;
+    border-radius: 2px;
+    margin-left: 40px;
+    font-size: 45px
+}
+
+.socmed_button:hover {
+    background-color: lightblue;
+    color: black;
+    border-radius: 2px;
+    transition: background-color 0.2s;
+    font-size: 45px
+}
+
+.main_homepage {
+    color: white;
+    display: flex;
+    margin: 50px
+}
+
+.main_aboutpage {
+    color: white;
+    display: flex;
+    margin: 50px
+}
+
+.about_paragraph{
+
+    margin: 20px;
+    justify-content: justify;
+    align-items: justify;    
+    text-align: justify;      
+    font-size: 16px;
+    line-height: 2.0
+
+}
+
+.main_projectspage {
+    color: white;
+    margin: 50px
+}
+
+.main_contactpage {
+    color: white;
+    margin: 50px
+}
+
+.main_educationpage {
+    color: white;
+    margin: 50px
+}
+
+.main_experiencespage {
+    color: white;
+    margin: 50px
+}
+
+
+div {
+    margin: 20px;
+    display: flex
+}
+
+.whatsapp_text {
+    margin-left: 40px;
+    margin-right: 30px;
+    font-size: 25px
+}
+
+.number_input {
+    font-size: 25px;
+    padding: 0;
+    margin-right: 10px
+
+}
+
+.contact_logo {
+    width: auto;
+    height: 100px
+}
+
+.contact_whatsapp_logo {
+    width: 110px;
+    height: 110px
+}
+
+article {
+    justify-content: justify;
+    align-items: justify;    
+    text-align: justify;     
+    margin-left: 150px
+}
+
+.CV_button {
+    background-color: blue;
+    padding: 12px;
+    border-radius: 2px;
+    margin-left: 0
+}
+
+.CV_button:hover {
+    background-color: lightblue;
+    color: black;
+    border-radius: 2px;
+    transition: background-color 0.2s    
+}
+
+.experience_img {
+    margin: auto
+}
+
+.paragraph_experiencespage {
+    justify-content: justify;
+    align-items: justify;    
+    text-align: justify;
+    line-height: 2.0
+}
+
+img {
+    height: 400px;
+    width: auto
+}

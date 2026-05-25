@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = UTF-8>
+    <title>Petrol Calculator</title>
+    <link rel = stylesheet href = "petrolcalculator.css"> <!--Link to stylesheet -->
+    <script src = "petrolcalculator.js"></script> <!--Link to javascript file -->
+</head>
+<body>
+    <header>
+        <h1>Petrol Calculator Webpage</h1>
+    </header>
+    <main> 
+        <div class = "group_1">
+            <h3>Cost of petrol per litre</h3>
+            <input type = 'number' value = "1.72" id = "cost"> <!-- Cost of petrol per litre -->
+        </div>
+
+        <div class = "group_2">
+            <h3>Number of litres purchased</h3>
+            <input type = 'number' id = "number"> <!-- Number of litres purchased -->
+        </div>
+
+        <div class = "group_3">
+        <button class = "calculateButton" onclick = "calculateTotal()">Calculate Total</button> <!-- Activate calculation function -->
+        <button class = "resetButton" onclick = "resetCost()">Reset</button> <!-- Resets total cost -->
+        <p>Total Cost: <span id = "total">0</span></p> <!-- Displays total cost after pressing calculate total button -->
+        </div>
+    </main>
+</body>
+</html>

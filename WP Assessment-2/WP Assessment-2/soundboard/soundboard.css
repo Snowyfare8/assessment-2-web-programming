@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Sets up body of the webpage */
+body {
+    margin: 0;
+    padding: 25px;
+    overflow: hidden;
+    background-color: rgb(1, 100, 109);
+    font-family: "Poppins", sans-serif
+
+}
+
+/* Centers and colors background of the header "Audio Sampler" */
+header {
+
+    margin: auto;
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    background-color: white
+
+}
+
+/* First row of soundboard sfx */
+.row_1 {
+
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 40px
+
+}
+
+/* Second row of soundboard sfx */
+.row_2 {
+
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px
+
+}
+
+/* Third row of soundboard sfx */
+.row_3 {
+
+    display: flex;
+    margin-top: 40px
+
+}
+
+/* Automatically arranges the audio buttons into a equal grid */
+.audio_button {
+
+    margin: auto;
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+    align-items: center
+
+}
+
+/* Makes the buttons transition colour  when a cursor hover over them  */
+input:hover {
+
+    background-color: maroon;
+    color: white;
+    border: 8px solid white;
+    border-radius: 10px;
+    transition: background-color 1s
+
+}
+
+/* Stylesheet for all buttons. */
+input {
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 475px;
+    font-size: 25px;
+    border: 8px solid black;
+    border-radius: 10px
+
+}
