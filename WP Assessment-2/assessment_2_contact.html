@@ -1,8 +1,9 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Code Portfolio Contact Page</title>
+    <title>Personal Portfolio Contact Page</title>
     <link rel = stylesheet href = "assessment_2_styling.css"> <!--Link to stylesheet -->
+    <script src = "assessment_2_scripting.js"></script>
 </head>
 <body>  
     <header>
@@ -14,19 +15,21 @@
         <a class = "contact_button" href = "assessment_2_contact.html">Contact Me</a>
     </header>
     <main class = "main_contactpage">
-        <div>
+        <div class = "contact_section">
             <img class = "contact_logo" src = "portfolio_pictures/logo_1.png" alt = "LinkedIn Logo">
             <a class = "socmed_button" href = "https://www.linkedin.com/in/abdulaziz-tejada-32419a398/" target = "_blank">LinkedIn</a>
         </div>
 
-        <div>
+        <div class = "contact_section">
             <img class = "contact_logo" src = "portfolio_pictures/logo_2.png" alt = "GitHub Logo">
             <a class = "socmed_button" href = "https://github.com/Snowyfare8" target = "_blank">GitHub</a>
         </div>
 
-        <div>
+        <div class = "contact_section">
             <img class = "contact_whatsapp_logo" src = "portfolio_pictures/logo_3.png" alt = "WhatsApp Logo">
-            <h3 class = "whatsapp_text">WhatsApp/Phone Number: 051 026 9673</h3>
+            <h3 class = "whatsapp_text">Whatsapp</h3>
+            <input type = "text" value = "051 026 9673" class = "number_input" id = "copy_number"></input>
+            <button onclick = "copy_function()">Copy</button>
         </div>
     </main>
 </body>
